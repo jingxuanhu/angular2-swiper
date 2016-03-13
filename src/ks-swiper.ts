@@ -1,4 +1,5 @@
-import {Directive, Component, ElementRef, Host, EventEmitter, Input, Output} from 'angular2/core';
+import {Injectable, Inject, Directive, Component, ElementRef, Host,
+EventEmitter, Input, Output} from 'angular2/core';
 import {NgClass} from 'angular2/common';
 
 // import Swiper from 'swiper';
@@ -16,6 +17,7 @@ function defaults(dest, ...args: any[]) {
   return dest;
 }
 
+@Injectable()
 @Component({
   selector: 'ks-swiper-container',
   template:
@@ -40,7 +42,7 @@ export class KSSwiperContainer {
 
   showPager: boolean;
 
-  constructor(private elementRef: ElementRef) {
+  constructor( @Inject(ElementRef) private elementRef: ElementRef) {
   }
 
   ngOnInit() {
@@ -63,6 +65,7 @@ export class KSSwiperContainer {
 
 }
 
+@Injectable()
 @Component({
   selector: 'ks-swiper-slide',
   template: '<div><ng-content></ng-content></div>'
@@ -72,8 +75,8 @@ export class KSSwiperSlide {
   private ele: HTMLElement;
 
   constructor(
-    elementRef: ElementRef,
-    @Host() swiper: KSSwiperContainer
+    @Inject(ElementRef) elementRef: ElementRef,
+    @Host() @Inject(KSSwiperContainer) swiper: KSSwiperContainer
     ) {
     this.ele = elementRef.nativeElement;
     this.ele.classList.add('swiper-slide');

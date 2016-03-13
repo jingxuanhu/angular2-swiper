@@ -1,6 +1,6 @@
 {
   "name": "angular2-swiper",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Angular 2 Swiper component that wraps http://idangero.us/swiper",
   "main": "dist/ks-swiper.js",
   "typings": "dist/ks-swiper.d.ts",
