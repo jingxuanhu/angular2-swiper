@@ -1,34 +1,35 @@
 {
-  "name": "angular2-swiper",
-  "version": "0.3.0",
-  "description": "Angular 2 Swiper component that wraps http://idangero.us/swiper",
-  "main": "dist/ks-swiper.js",
-  "typings": "dist/ks-swiper.d.ts",
-  "scripts": {
+    "name": "angular2-swiper",
+    "version": "0.4.0",
+    "description": "Angular 2 Swiper component that wraps http://idangero.us/swiper",
+    "main": "dist/ks-swiper.js",
+    "typings": "dist/ks-swiper.d.ts",
+    "scripts": {
 
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ksachdeva/angular2-swiper.git"
-  },
-  "dependencies": {
-    "angular2": "2.0.0-beta.9",
-    "es6-promise": "^3.1.2",
-    "es6-shim": "^0.33.3",
-    "es7-reflect-metadata": "^1.6.0",
-    "rxjs": "5.0.0-beta.2",
-    "swiper": "^3.3.1",
-    "zone.js": "0.5.15"
-  },
-  "keywords": [
-    "angular2",
-    "swiper",
-    "component"
-  ],
-  "author": "Kapil Sachdeva",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ksachdeva/angular2-swiper/issues"
-  },
-  "homepage": "https://github.com/ksachdeva/angular2-swiper#readme"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ksachdeva/angular2-swiper.git"
+    },
+    "dependencies": {
+        "@angular/core": "2.0.0-rc.1",
+        "@angular/common": "2.0.0-rc.1",
+        "es6-promise": "^3.1.2",
+        "es6-shim": "^0.33.3",
+        "es7-reflect-metadata": "^1.6.0",
+        "rxjs": "5.0.0-beta.6",
+        "swiper": "^3.3.1",
+        "zone.js": "0.6.12"
+    },
+    "keywords": [
+        "angular2",
+        "swiper",
+        "component"
+    ],
+    "author": "Kapil Sachdeva",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ksachdeva/angular2-swiper/issues"
+    },
+    "homepage": "https://github.com/ksachdeva/angular2-swiper#readme"
 }
