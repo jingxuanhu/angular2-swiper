@@ -1,3 +1,5 @@
+declare var require;
+
 import {Injectable, Inject, Component, ElementRef, Host, Input} from '@angular/core';
 
 // import Swiper from 'swiper';
