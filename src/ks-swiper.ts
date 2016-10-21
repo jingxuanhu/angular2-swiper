@@ -26,6 +26,8 @@ function defaults(dest, ...args: any[]) {
       <ng-content></ng-content>
     </div>
     <div class="swiper-pagination"></div>
+    <button class="swiper-button swiper-button-next"></button>
+    <button class="swiper-button swiper-button-prev"></button>
   </div>`
 })
 export class KSSwiperContainer {
