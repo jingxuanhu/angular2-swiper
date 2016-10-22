@@ -1,15 +1,16 @@
 {
-    "name": "ng2-swiper",
-    "version": "0.0.1",
-    "description": "This is a Angular 2 Swiper component that modifies ksachdeva/angular2-swiper.(add control buttons inside the container) Also the component that wraps [http://idangero.us/swiper](http://idangero.us/swiper)",
+    "name": "angular2-swiper",
+    "version": "0.8.1",
+    "description": "Angular 2 Swiper component that wraps http://idangero.us/swiper",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-
+      "tsc": "tsc",
+      "postinstall": "typings install && npm run tsc"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jingxuanhu/angular2-swiper.git"
+        "url": "git+https://github.com/ksachdeva/angular2-swiper.git"
     },
     "dependencies": {
         "swiper": "^3.3.1"
@@ -20,17 +21,19 @@
         "core-js": "^2.4.1",
         "reflect-metadata": "^0.1.3",
         "rxjs": "5.0.0-beta.12",
-        "zone.js": "^0.6.23"
+        "zone.js": "^0.6.23",
+        "tsc": "^1.20150623.0",
+        "typescript": "^2.0.3",
     },
     "keywords": [
         "angular2",
         "swiper",
         "component"
     ],
-    "author": "Jingxuan Hu",
+    "author": "Kapil Sachdeva",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jingxuanhu/angular2-swiper/issues"
+        "url": "https://github.com/ksachdeva/angular2-swiper/issues"
     },
-    "homepage": "https://github.com/jingxuanhu/angular2-swiper#readme"
+    "homepage": "https://github.com/ksachdeva/angular2-swiper#readme"
 }
