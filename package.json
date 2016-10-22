@@ -5,7 +5,11 @@
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-        "tsc": "tsc"
+      "postinstall": "typings install",
+      "tsc": "tsc",
+      "tsc:w": "tsc -w",
+      "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+      "typings": "typings"
     },
     "repository": {
         "type": "git",
