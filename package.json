@@ -5,11 +5,10 @@
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-      "postinstall": "typings install",
+      "preinstall": "npm install typescript",
       "tsc": "tsc",
       "tsc:w": "tsc -w",
-      "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-      "typings": "typings"
+      "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
     },
     "repository": {
         "type": "git",
