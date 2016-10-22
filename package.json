@@ -1,15 +1,15 @@
 {
-    "name": "angular2-swiper",
-    "version": "0.8.1",
-    "description": "Angular 2 Swiper component that wraps http://idangero.us/swiper",
+    "name": "ng2-swiper",
+    "version": "0.0.1",
+    "description": "This is a Angular 2 Swiper component that modifies ksachdeva/angular2-swiper.(add control buttons inside the container) Also the component that wraps [http://idangero.us/swiper](http://idangero.us/swiper)",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-      "postinstall": "tsc"
+
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ksachdeva/angular2-swiper.git"
+        "url": "git+https://github.com/jingxuanhu/angular2-swiper.git"
     },
     "dependencies": {
         "swiper": "^3.3.1"
@@ -27,10 +27,10 @@
         "swiper",
         "component"
     ],
-    "author": "Kapil Sachdeva",
+    "author": "Jingxuan Hu",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ksachdeva/angular2-swiper/issues"
+        "url": "https://github.com/jingxuanhu/angular2-swiper/issues"
     },
-    "homepage": "https://github.com/ksachdeva/angular2-swiper#readme"
+    "homepage": "https://github.com/jingxuanhu/angular2-swiper#readme"
 }
